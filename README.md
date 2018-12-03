@@ -24,7 +24,7 @@ The IPFS Local Offline Collaboration (Locol) working group is focused on underst
 - Research and prototype applications that utilize IPFS for local-first collaboration and resilient offline usage
 
 ## People
-The Locol WG is still in "boot stage" and actively looking for more participants! Follow the [issues](issues)) for regular gatherings to discuss local and offline use cases, challenges, and ongoing work - or create a new issue with your ideas and research!
+The Locol WG is still in "boot stage" and actively looking for more participants! Follow the [issues](issues) for regular gatherings to discuss local and offline use cases, challenges, and ongoing work - or create a new issue with your ideas and research!
 
 ### Maintainer
 [Molly Mackinlay](https://github.com/momack2)

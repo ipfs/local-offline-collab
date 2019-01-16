@@ -1,0 +1,68 @@
+## Offline Collab Brainstorm @ Go Core IPFS Hack Week (Oct 2018)
+- For secenario of two friend meeting over coffee - one with a file the other wants
+  - Setup: connect over local wifi (but no external connection), explicit want in the want list, both actively running ipfs node that is constantly looking for peers, has enough resources / small enough node (memory (200-300MB min), Storage, not getting shut down by OS, battery (avoid power saving))
+    - "it just works" - sender doesn't need to explicitly send, but asker has to explicitly ask for this exact ahash
+    - Things that require extra tooling
+      - Pubsub content subscriptions
+        - Subscribe to content from X person / friend / peer
+        - Grab content on this topic I like / content like X / optimistic useful something
+      - Don't have ad-hoc or short-range transports in libp2p (bluetooth, IR, various radios like wifi-direct)
+        - why go through a third party if you don't have to!
+      - need better semantics around relays
+        - chaining of communications and requests (point-to-point or message passing --> doesn't require peer-to-peer direct connection)
+        - ties into resiliant, self-healing networks (being discussed in libp2p)
+        - How do we enable cross-party connections - could gossiping knowledge of peers AND best connection protocol (bootstrap method and self-healing mechanism)
+        - examples: sekiai - unifies entire friend graph, pex = peer exchange in BitTorrent 
+      - both peers have to already have ipfs (don't yet have a path to distribute ipfs from peer to peer)
+    - battery drained by gossip / always searching for peers
+      - need to do this opportunistically, at interval, responsively to changing network conditions (incoming pings?)
+        - sony and BLE beacons do this really well
+    - RAM constrained just by data structure performance
+      - reduce waste, struct alignment/packing (minimizing extra space provisioned for holding data), reduce fragmentation!
+    - CPU
+      - use lots of threads and lots of go routines
+      - apps have to be ready to be interrupted at any moment
+    - on-disk memory
+
+- Offline: concern, use cases to cover, why is this important
+  - bare minimum: eltricity, some hardware, link, some storage that you can link to,
+  - Thin clients - have benefits in terms of hardware, detriments in terms of hackability/manipulability if don't have ability to store locally
+  - Example use cases:
+    - School/Enterprise
+      - Characteristics: many individuals on the same network, similar browsing characteristics / content needs, desire to local-first collab, some centrally hosted nodes to federate/distribute cached content
+      - Ex1: Many users request the same file (schedule, video, reference material, etc)
+        - goal: duplicate requests go local-first to fetch content that's already been dowonloaded into sub-network
+      - Ex2: P2p collab on single doc/wiki (notes, discussion, comments, question, quiz, sign-ups, etc)
+        - goal: send updates/messages local first to near peers and secondary/slow sync outside to rest of network (instead of current vice/versa)
+      - squid caches over IPFS: very compatible. does the DNS lookup and then points to local peers to fetch files from within network
+        - theoretically could distribute the cache to peers under http semantics
+        - need some intelligent traffic shaping (how to route packets, which peers to ask, etc) - needed to avoid overloading peers, duplicate blocks, malicious actors
+    - p2p transfer networks
+      - peer-to-peer
+        - share-it/airdrop/etc for local sharing
+        - frequently entertainment / social content
+        - "intentional" and explicit shares --> would be cool to move to more optimistic distribution
+      - point-to-point
+        - delegated peer discovery / routing
+      - couriers
+        - explicit: passing/fulfilling want lists  when moving between networks
+          - ex OS updates - distributed, severable network updates flowing p2p
+          - data refreshes - bring new data dumps to existing locations
+        - implicit: finding and couriering "interesing" content --> question of "what is useful?"
+          - advertize content beacon to show hosting (potentially) interesting content
+    - Social, Local, (Mobile?)
+      - local social networks (neighbor, circle, likealittle)
+        - contextual chats about locally relevant content
+        - webs of trust / consensus of authority and hhow to filter content or individuals
+      - use local chats to communicate with each other when ISP goes down / data networks overshewhelmed (stadium, concert, theater, etc)
+        - resilient to highly-dense network usage
+      - local gaming over LAN
+        - high resolution, rich media, highly responsive, local host election to pairing / managing connections
+        - Integrate with unity tooling? Ways of addressing/sharing hash-addressed 
+        - how handle value capture for the gaming company (aka money)?
+    
+
+- Meta observations
+  - unclear to offline app developers - what should be done at the layer above IPFS vs inside IPFS (what does low level tool enable -? Proof of concept?)
+  - "intelligent" network shaping / content couriering is hard!
+  - trading off one type of efficiency for another (will have some losses over traditional methods, in exchange for gains)

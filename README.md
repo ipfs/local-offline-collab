@@ -1,5 +1,4 @@
-# Local Offline Collaboration (Locol) Working Group
-
+# Local Offline Collaboration (Locol) Special Interest Group
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
 [![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)
@@ -15,7 +14,7 @@
 
 ## About
 
-The IPFS Local Offline Collaboration (Locol) working group is focused on understanding the challenges of users in offline or async networks, collaborating with partners serving those users, and prototyping solutions to understand how to make IPFS more useful for local offline collaboration.
+The IPFS Local Offline Collaboration (Locol) Special Interest Group is focused on understanding the challenges of users in offline or async networks, collaborating with partners serving those users, and prototyping solutions to understand how to make IPFS more useful for local offline collaboration.
 
 ### Responsibilities include:
 - Participate in communities like [Offline First](http://offlinefirst.org/)
@@ -24,10 +23,10 @@ The IPFS Local Offline Collaboration (Locol) working group is focused on underst
 - Research and prototype applications that utilize IPFS for local-first collaboration and resilient offline usage
 
 ## People
-- Molly - Locol WG Captain
+- Molly - Offline enthusiast and user researcher
 - Teri - [Offline Camp](http://offlinefirst.org/camp/) Organizer and OfflineFirst expert
 
-The Locol WG is still in "boot stage" and actively looking for more participants! Follow the [issues](https://github.com/ipfs/local-offline-collab/issues) for regular gatherings to discuss local and offline use cases, challenges, and ongoing work - or create a new issue with your ideas and research!
+The Locol SIG is actively looking for more participants! Follow the [issues](https://github.com/ipfs/local-offline-collab/issues) for regular gatherings to discuss local and offline use cases, challenges, and ongoing work - or create a new issue with your ideas and research!
 
 ### Maintainer
 [Molly Mackinlay](https://github.com/momack2)

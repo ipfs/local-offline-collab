@@ -9,6 +9,7 @@
 ## Table of Contents
 
 - [About](#about)
+- [Monthly Calls](#monthly-calls)
 - [People](#people)
 - [License](#license)
 
@@ -22,14 +23,18 @@ The IPFS Local Offline Collaboration (Locol) Special Interest Group is focused o
 - Support collaborations between IPFS and community members who are building tools for peer-to-peer sharing and collaboration in local/offline networks
 - Research and prototype applications that utilize IPFS for local-first collaboration and resilient offline usage
 
+### Monthly calls: 
+We meet monthly to discuss projects and share demos relevant to local and offline collaboration. These meetings typically take place on 3rd Wednesday of each month, but timing may vary. Watch this repo to be notified of [upcoming meetings](https://github.com/ipfs/local-offline-collab/issues?utf8=%E2%9C%93&q=+is%3Aissue+label%3A%22%F0%9F%93%9E+Monthly+Call%22+), which are announced via our issue queue, or check the [IPFS Community Calendar](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&pli=1). You can also view our [historical meeting notes](https://docs.google.com/document/d/1Mol6epw0sbj5FqS6akD-X5KJkGF0MwsOZQ5t1ehOGiM/edit?usp=sharing) or [call recordings](https://www.youtube.com/playlist?list=PLuhRWgmPaHtSfSw2L-McV5w9nGoM5QzLO). 
+
 ## People
 - Molly - Offline enthusiast and user researcher
 - Teri - [Offline Camp](http://offlinefirst.org/camp/) Organizer and OfflineFirst expert
 
 The Locol SIG is actively looking for more participants! Follow the [issues](https://github.com/ipfs/local-offline-collab/issues) for regular gatherings to discuss local and offline use cases, challenges, and ongoing work - or create a new issue with your ideas and research!
 
-### Maintainer
-[Molly Mackinlay](https://github.com/momack2)
+### Maintainers
+- [Teri Chadbourne](https://github.com/terichadbourne)
+- [Molly Mackinlay](https://github.com/momack2)
 
 
 ## License

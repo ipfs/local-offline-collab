@@ -18,24 +18,25 @@
 The IPFS Local Offline Collaboration (Locol) Special Interest Group is focused on understanding the challenges of users in offline or async networks, collaborating with partners serving those users, and prototyping solutions to understand how to make IPFS more useful for local offline collaboration.
 
 ### Responsibilities include:
+
 - Participate in communities like [Offline First](http://offlinefirst.org/)
 - Conduct user research around offline and local-first use cases, communities, and best practices
 - Support collaborations between IPFS and community members who are building tools for peer-to-peer sharing and collaboration in local/offline networks
 - Research and prototype applications that utilize IPFS for local-first collaboration and resilient offline usage
 
-### Monthly calls: 
-We meet monthly to discuss projects and share demos relevant to local and offline collaboration. These meetings typically take place on 3rd Wednesday of each month, but timing may vary. Watch this repo to be notified of [upcoming meetings](https://github.com/ipfs/local-offline-collab/issues?q=is%3Aissue+label%3A%22%F0%9F%93%9E+Monthly+Call%22+is%3Aopen), which are announced via our issue queue, or check the [IPFS Community Calendar](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&pli=1). You can also view our [historical meeting notes](https://docs.google.com/document/d/1Mol6epw0sbj5FqS6akD-X5KJkGF0MwsOZQ5t1ehOGiM/edit?usp=sharing) or [call recordings](https://www.youtube.com/playlist?list=PLuhRWgmPaHtSfSw2L-McV5w9nGoM5QzLO). 
+### Monthly calls:
 
-## People
-- Molly - Offline enthusiast and user researcher
-- Teri - [Offline Camp](http://offlinefirst.org/camp/) Organizer and OfflineFirst expert
+We meet monthly to discuss projects and share demos relevant to local and offline collaboration. These meetings typically take place on 2nd Wednesday of each month, but timing may vary. Subscribe to [this issue](https://github.com/ipfs/local-offline-collab/issues/25) in this repo to be notified of upcoming meetings, or check the [IPFS Community Calendar](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&pli=1). You can also view our [historical meeting notes](https://docs.google.com/document/d/1Mol6epw0sbj5FqS6akD-X5KJkGF0MwsOZQ5t1ehOGiM/edit?usp=sharing) or [call recordings](https://www.youtube.com/playlist?list=PLuhRWgmPaHtSfSw2L-McV5w9nGoM5QzLO).
 
-The Locol SIG is actively looking for more participants! Follow the [issues](https://github.com/ipfs/local-offline-collab/issues) for regular gatherings to discuss local and offline use cases, challenges, and ongoing work - or create a new issue with your ideas and research!
+*PROPOSE A TALK!* Come speak about your project or use-case! File an issue to submit a talk or request a speaker or a discussion topic for the monthly call.
 
 ### Maintainers
-- [Teri Chadbourne](https://github.com/terichadbourne)
-- [Molly Mackinlay](https://github.com/momack2)
 
+- Yiannis Psaras - [Protocol Labs ResNetLab](https://research.protocol.ai/groups/resnetlab/)
+- Teri - [Offline Camp](http://offlinefirst.org/camp/) Organizer and OfflineFirst expert, [ProtoSchool](https://proto.school) lead
+- Dietrich Ayala - [IPFS](https://ipfs.io) Ecosystem Lead
+
+The Locol SIG is actively looking for more participants! Follow the [issues](https://github.com/ipfs/local-offline-collab/issues) for regular gatherings to discuss local and offline use cases, challenges, and ongoing work - or create a new issue with your ideas and research!
 
 ## License
 

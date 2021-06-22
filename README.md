@@ -9,34 +9,43 @@
 ## Table of Contents
 
 - [About](#about)
-- [Monthly Calls](#monthly-calls)
-- [People](#people)
+- [Focus Areas](#focus-areas)
+- [Demo & Discussion Calls](#demo-and-discussion-calls)
+- [Discussion Forums](#discussion-forums)
+- [Maintainers](#maintainers)
 - [License](#license)
 
 ## About
 
 The IPFS Local Offline Collaboration (Locol) Special Interest Group is focused on understanding the challenges of users in offline or async networks, collaborating with partners serving those users, and prototyping solutions to understand how to make IPFS more useful for local offline collaboration.
 
-### Responsibilities include:
+### Focus areas
 
 - Participate in communities like [Offline First](http://offlinefirst.org/)
 - Conduct user research around offline and local-first use cases, communities, and best practices
 - Support collaborations between IPFS and community members who are building tools for peer-to-peer sharing and collaboration in local/offline networks
 - Research and prototype applications that utilize IPFS for local-first collaboration and resilient offline usage
 
-### Monthly calls:
+### Demo and discussion calls
 
-We meet monthly to discuss projects and share demos relevant to local and offline collaboration. These meetings typically take place on 2nd Wednesday of each month, but timing may vary. Subscribe to [this issue](https://github.com/ipfs/local-offline-collab/issues/25) in this repo to be notified of upcoming meetings, or check the [IPFS Community Calendar](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&pli=1). You can also view our [historical meeting notes](https://docs.google.com/document/d/1Mol6epw0sbj5FqS6akD-X5KJkGF0MwsOZQ5t1ehOGiM/edit?usp=sharing) or [call recordings](https://www.youtube.com/playlist?list=PLuhRWgmPaHtSfSw2L-McV5w9nGoM5QzLO).
+We meet occassionally to discuss projects and share demos relevant to local and offline collaboration. These meetings are scheduled one-off as speakers or discussion leaders volunteer. Subscribe to [this issue](https://github.com/ipfs/local-offline-collab/issues/25) to be notified of upcoming meetings. 
 
-*PROPOSE A TALK!* Come speak about your project or use-case! File an issue to submit a talk or request a speaker or a discussion topic for the monthly call.
+View our [historical meeting notes](https://docs.google.com/document/d/1Mol6epw0sbj5FqS6akD-X5KJkGF0MwsOZQ5t1ehOGiM/edit?usp=sharing) or [call recordings](https://www.youtube.com/playlist?list=PLuhRWgmPaHtSfSw2L-McV5w9nGoM5QzLO) to see what we've discussed in past sessions!
+
+*PROPOSE A TALK!* Come speak about your project or use-case! Jump into [this issue](https://github.com/ipfs/local-offline-collab/issues/25) to offer up a demo or suggest a discussion topic for our next call.
+
+### Discussion forums
+Between calls, we encourage folks to make use of these async channels to share resources and and chat with fellow aficionados of offline/local-first tech: 
+- The [IPFS community on Discord](https://discord.gg/vZTcrFePpt) 
+- The #dweb channel within the Offline First Slack workspace ([sign up here](https://chat.offlinefirst.org/))
 
 ### Maintainers
 
 - Yiannis Psaras - [Protocol Labs ResNetLab](https://research.protocol.ai/groups/resnetlab/)
-- Teri - [Offline Camp](http://offlinefirst.org/camp/) Organizer and OfflineFirst expert, [ProtoSchool](https://proto.school) lead
 - Dietrich Ayala - [IPFS](https://ipfs.io) Ecosystem Lead
+- Teri Chadbourne - [Offline First](http://offlinefirst.org) community organizer and [Offline Camp](http://offlinefirst.org/camp/) event lead, [ProtoSchool](https://proto.school) lead
 
-The Locol SIG is actively looking for more participants! Follow the [issues](https://github.com/ipfs/local-offline-collab/issues) for regular gatherings to discuss local and offline use cases, challenges, and ongoing work - or create a new issue with your ideas and research!
+The Locol SIG is actively looking for more participants! Follow the [issues](https://github.com/ipfs/local-offline-collab/issues) for occassional gatherings to discuss local and offline use cases, challenges, and ongoing work - or create a new issue with your ideas and research!
 
 ## License
 

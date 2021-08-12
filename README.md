@@ -43,7 +43,6 @@ Between calls, we encourage folks to make use of these async channels to share r
 
 - Yiannis Psaras - [Protocol Labs ResNetLab](https://research.protocol.ai/groups/resnetlab/)
 - Dietrich Ayala - [IPFS](https://ipfs.io) Ecosystem Lead
-- Teri Chadbourne - [Offline First](http://offlinefirst.org) community organizer and [Offline Camp](http://offlinefirst.org/camp/) event lead, [ProtoSchool](https://proto.school) lead
 
 The Locol SIG is actively looking for more participants! Follow the [issues](https://github.com/ipfs/local-offline-collab/issues) for occassional gatherings to discuss local and offline use cases, challenges, and ongoing work - or create a new issue with your ideas and research!
 
